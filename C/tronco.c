@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 int comparar_decrescente(const void *a, const void *b) {
     return (*(int*)b - *(int*)a);
 }
